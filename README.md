@@ -1,6 +1,11 @@
 # RTP (Red Team Proxy)
 
+# RTP
 
+📖 **Language / 语言**
+
+- 🇺🇸 [English](./README.md)
+- 🇨🇳 [简体中文](./README_zh.md)
 
 > A compact red team tunnel and proxy utility written in pure C.  
 > Small footprint, single-binary deployment, mutation-aware builds, and field-friendly command flow.
