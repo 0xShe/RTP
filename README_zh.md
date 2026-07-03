@@ -1,10 +1,11 @@
 # RTP (Red Team Proxy)
 
 > 一个为红队实战设计的纯 C 轻量级隧道与代理工具。  
->
 > 小、快、静，单文件部署，命令行直驱，支持动态变异构建。
->
 > HVV即将开始，FRP落地就杀？试试看RTP！
+
+<img width="1502" height="832" alt="cn" src="https://github.com/user-attachments/assets/f544e935-ca13-419e-b31d-23314d23b0fb" />
+<img width="1502" height="832" alt="en" src="https://github.com/user-attachments/assets/387f2915-8416-42f5-9534-dcbedf06cc90" />
 
 ## 简介
 
