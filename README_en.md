@@ -225,5 +225,5 @@ Operators are responsible for ensuring lawful use in their own environment and j
 
 ## GitHub
 
-- GitHub: https://github.com/your-org/RTP
+- GitHub: https://github.com/0xShe/RTP
 - If this project helps you, please consider giving it a Star on GitHub.
