@@ -1,13 +1,5 @@
 # RTP (Red Team Proxy)
 
-📖 **Language / 语言**
-
-- 🇺🇸 [English](./README.md)
-- 🇨🇳 [简体中文](./README_zh.md)
-
-<img width="1502" height="832" alt="cn" src="https://github.com/user-attachments/assets/f544e935-ca13-419e-b31d-23314d23b0fb" />
-<img width="1502" height="832" alt="en" src="https://github.com/user-attachments/assets/387f2915-8416-42f5-9534-dcbedf06cc90" />
-
 > A compact red team tunnel and proxy utility written in pure C.  
 > Small footprint, single-binary deployment, mutation-aware builds, and field-friendly command flow.
 
@@ -225,5 +217,5 @@ Operators are responsible for ensuring lawful use in their own environment and j
 
 ## GitHub
 
-- GitHub: https://github.com/0xShe/RTP
+- GitHub: https://github.com/your-org/RTP
 - If this project helps you, please consider giving it a Star on GitHub.

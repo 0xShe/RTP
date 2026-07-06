@@ -73,7 +73,7 @@ static int parse_addr(const char *addr_str, struct sockaddr_in *addr) {
 
     if (strlen(host) == 0 || strcmp(host, "*") == 0) {
         addr->sin_addr.s_addr = INADDR_ANY;
-    } else if (inet_pton(AF_INET, host, &addr->sin_addr) != 1) {
+    } else if (rtp_inet_pton(AF_INET, host, &addr->sin_addr) != 1) {
         return -1;
     }
     return 0;

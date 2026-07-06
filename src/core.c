@@ -195,7 +195,7 @@ static void format_sockaddr_ipv4(const struct sockaddr_in *addr, char *buf, size
     if (!addr || !buf || buf_len == 0) {
         return;
     }
-    if (inet_ntop(AF_INET, &addr->sin_addr, ip, sizeof(ip)) == NULL) {
+    if (rtp_inet_ntop(AF_INET, &addr->sin_addr, ip, sizeof(ip)) == NULL) {
         snprintf(buf, buf_len, "unknown");
         return;
     }

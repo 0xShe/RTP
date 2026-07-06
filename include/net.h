@@ -29,6 +29,8 @@
 #define NET_EINPROGRESS EINPROGRESS
 #endif
 
+#include "inet_compat.h"
+
 void net_init(void);
 void net_cleanup(void);
 int net_set_nonblocking(SOCKET_TYPE fd);

@@ -1104,7 +1104,7 @@ class RTPBuilderGUI:
                 flags.append("-lws2_32")
                 
                 if arch == "legacy":
-                    flags.extend(["-DWINVER=0x0502", "-D_WIN32_WINNT=0x0502"]) # Server 2003 / XP compatibility
+                    flags.extend(["-DWINVER=0x0502", "-D_WIN32_WINNT=0x0502", "-Wno-macro-redefined"]) # Server 2003 / XP compatibility
                     out_file = "RTP_Windows_Legacy.exe"
                 else:
                     # For modern Windows, we don't strictly need to force WINVER on the command line if the compiler provides it,
